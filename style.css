@@ -5,14 +5,31 @@ a,p{ font-family: Open Sans;}
 h1,h2,h3,h4,h5{ font-family: Roboto;}
 
 .bg-primary{
-  background-color: #3b5249!important
+  background-color: #3b5249!important  /*Ciemny zielony*/
+}
+
+.bg-secondary{
+    background-color: #519872!important  /*Jasny zielony*/
+}
+
+.text-primary{
+  color: #382933!important  /*Czarno-zielony*/
+}
+.text-secondary {
+  color: #a4b494!important  /*Oliwkowy*/
 }
 
 #logo{ width: 15%; height: 15%;}
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
+background-color: rgba(50,50,50,255);
+}
+
+img.w-75 {
+  max-height: 500px;
+}
+
+.carousel-inner{
+  height: 500px;
 }

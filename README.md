@@ -7,7 +7,7 @@ Colors:
   Nav & Footer:
     Nav BG: #3b5249
     Footer BG: #3b5249
-    Font Nav: #FFF
+    Font Nav: White, #382933, #a4b494
   Section 1/3 - Poradniki:
     BG Kafelek: #a4b494
     Font heading: #000
