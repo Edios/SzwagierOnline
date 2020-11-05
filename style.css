@@ -1,0 +1,18 @@
+
+a,p{ font-family: Open Sans;}
+
+
+h1,h2,h3,h4,h5{ font-family: Roboto;}
+
+.bg-primary{
+  background-color: #3b5249!important
+}
+
+#logo{ width: 15%; height: 15%;}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
