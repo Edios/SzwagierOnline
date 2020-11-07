@@ -5,18 +5,22 @@ a,p{ font-family: Open Sans;}
 h1,h2,h3,h4,h5{ font-family: Roboto;}
 
 .bg-primary{
-  background-color: #3b5249!important  /*Ciemny zielony*/
+  background-color: #3b5249!important;  /*Ciemny zielony*/
 }
 
 .bg-secondary{
-    background-color: #519872!important  /*Jasny zielony*/
+    background-color: #519872!important;  /*Jasny zielony*/
+}
+
+.bg-dark{
+  background-color: #382933!important;  /*Czarno-zielony*/
+}
+.bg-bright {
+  background-color: #a4b494!important;  /*Oliwkowy*/
 }
 
 .text-primary{
-  color: #382933!important  /*Czarno-zielony*/
-}
-.text-secondary {
-  color: #a4b494!important  /*Oliwkowy*/
+  color: white!important;
 }
 
 #logo{ width: 15%; height: 15%;}
