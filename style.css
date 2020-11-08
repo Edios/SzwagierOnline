@@ -20,7 +20,10 @@ h1,h2,h3,h4,h5{ font-family: Roboto;}
 }
 
 .text-primary{
-  color: white!important;
+  color: #382933!important;
+}
+.text-secondary{
+  color: #519872!important;
 }
 
 #logo{ width: 15%; height: 15%;}
