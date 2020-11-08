@@ -13,14 +13,17 @@ h1,h2,h3,h4,h5{ font-family: Roboto;}
 }
 
 .bg-dark{
-  background-color: #382933!important;  /*Czarno-zielony*/
+  background-color: #382933;  /*Czarno-zielony*/
 }
 .bg-bright {
-  background-color: #a4b494!important;  /*Oliwkowy*/
+  background-color: #a4b494;  /*Oliwkowy*/
 }
 
 .text-primary{
-  color: white!important;
+  color: #382933!important;
+}
+.text-secondary{
+  color: #519872!important;
 }
 
 #logo{ width: 15%; height: 15%;}
@@ -28,4 +31,8 @@ h1,h2,h3,h4,h5{ font-family: Roboto;}
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
 background-color: #382933;
+}
+
+.btn{
+  border-width: thick;
 }
