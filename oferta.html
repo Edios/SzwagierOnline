@@ -81,6 +81,7 @@
 <script>
   $(document).ready(function(){
     $(".offer-changer").click(function(e){
+        e.preventDefault();
         var url = $(this).attr('href');
         $.ajax({
          type: 'GET',
