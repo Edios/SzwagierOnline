@@ -30,45 +30,45 @@
   <h1 class="">Oferta</h1>
 </div>
 
-<div class="container-fluid">
+<div class="container">
   <div class="row pt-10">
 
     <div class="col-sm-4">
       <div class="card">
-        <img class="card-img-top" src="assets\oferta\fish_pole1.jpg" alt="Card image cap">
-        <div class="card-body text-center bg-bright offer-changer">
+        <img class="card-img-top offer-cover-img" src="assets\oferta\wedka-cover.jpg" alt="Card image cap">
+        <div class="card-body text-center bg-bright">
             <h5 class="card-title">Wędki</h5>
             <p class="card-text">Mamy na sprzedaż różne badyle, duże małe, takie rozwijane i po prostu długie tyczki. Znajdziesz coś dla siebie.</p>
-            <a href="oferta.html" class="btn text-white bg-secondary">Obczaj produkty</a>
+            <a href="pages\wedki.html" class="btn text-white bg-secondary offer-changer">Obczaj produkty</a>
         </div>
       </div>
     </div>
     <div class="col-sm-4">
       <div class="card">
-        <img class="card-img-top" src="assets\oferta\fish_pole1.jpg" alt="Card image cap">
-        <div class="card-body text-center bg-bright offer-changer">
+        <img class="card-img-top offer-cover-img" src="assets\oferta\splawik-cover.jpg" alt="Card image cap">
+        <div class="card-body text-center bg-bright">
             <h5 class="card-title">Spławiki</h5>
             <p class="card-text">Jeśli masz długiego badyla to będziesz potrzebował dobrego spławika. Sprawdź co mamy w ofercie</p>
-            <a href="pages\splawiki.html" class="btn text-white bg-secondary offer-changfuck">Obczaj produkty</a>
+            <a href="pages\splawiki.html" class="btn text-white bg-secondary offer-changer">Obczaj produkty</a>
         </div>
       </div>
     </div>
     <div class="col-sm-4 ">
       <div class="card">
-        <img class="card-img-top" src="assets\oferta\fish_pole1.jpg" alt="Card image cap">
-        <div class="card-body text-center bg-bright offer-changer">
-            <h5 class="card-title">Wędki</h5>
-            <p class="card-text">Mamy na sprzedaż różne badyle, duże małe, takie rozwijane i po prostu długie tyczki. Znajdziesz coś dla siebie.</p>
-            <a href="#" class="btn text-white bg-secondary">Obczaj produkty</a>
+        <img class="card-img-top offer-cover-img" src="assets\oferta\przyneta-cover.jpg" alt="Card image cap">
+        <div class="card-body text-center bg-bright">
+            <h5 class="card-title">Sztuczne przynęty</h5>
+            <p class="card-text">Eko zanęty, nie psują się na słońcu. Posiadają też atest GreenPeace więc możesz spać spokojnie</p>
+            <a href="pages\przynety.html" class="btn text-white bg-secondary offer-changer">Obczaj produkty</a>
         </div>
       </div>
     </div>
   </div>
 </div>
-<!-- Product list content -->
-<div class="container" id="offer-content">
+<!-- Product list content, content will be loaded by ajax function to #offer-row-->
+<div class="container text-center">
   <div class="row" id="offer-row">
-    <h1>bober</h1>
+      <div class="alert alert-info mt-4 mx-auto">W tym miejscu pojawią się produkty, zostaną one doładowane z zewnętrznych stron za pomocą AJAXa.</div>
   </div>
 </div>
 
@@ -82,7 +82,7 @@
   $(document).ready(function(){
     $(".offer-changfuck").click(function(e){
         e.preventDefault();
-        var url = $(this).attr('href'); //get the link you want to load data from
+        var url = $(this).attr('href');
         $.ajax({
          type: 'GET',
          url: url,

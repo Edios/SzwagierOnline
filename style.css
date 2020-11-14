@@ -15,7 +15,7 @@ h1,h2,h3,h4,h5{ font-family: Roboto;}
 .bg-dark{
   background-color: #382933;  /*Czarno-zielony*/
 }
-.bg-bright {
+.bg-bright{
   background-color: #a4b494;  /*Oliwkowy*/
 }
 
@@ -35,4 +35,14 @@ background-color: #382933;
 
 .btn{
   border-width: thick;
+}
+.offer-img{
+  max-height: 250px;
+}
+.offer-cover-img{
+  max-height: 200px;
+}
+.pricing{
+  font-weight: bold;
+  font-size:2.2rem;
 }
